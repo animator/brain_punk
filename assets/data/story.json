@@ -1,43 +1,78 @@
 {
   "data": [
     {
-      "q": "Hi! I am Elyssa and I am a Reck. During the day I work in STR-147 selling bread to other Recks to provide for my little brother Adam. At night, I pursue my hobby of building my mini mechadroid, which is cool but not Artificially Intelligent as the real mechadroids that rule our world.I just finished my shift and returned home to find my little brother missing. The front door was smashed open and there was something odd lying on the floor ..",
+      "id": 0,
+      "q": "Hi! I am Elyssa and I am a Reck. During the day I work in Cafe-147 selling bread to other Recks to provide for my little brother Adam.",
       "a": null
     },
     {
-      "q": "A bottle of filled single malt left in hurry. Maybe by the Reck who has my brother. I am worried and this is my only clue.\nHelp me calculate its weight if it is 1 KG plus half its own weight?",
+      "id": 1,
+      "q": "At night, I pursue my hobby of building my mini mechadroid, which is cool but not Artificially Intelligent as the real mechadroids that rule our world.",
+      "a": null
+    },
+    {
+      "id": 2,
+      "q": "I just finished my shift and returned home to find my little brother missing. The front door was smashed open and there was something odd lying on the floor ..",
+      "a": null
+    },
+    {
+      "id": 3,
+      "q": "A bottle of filled single malt left in hurry. Maybe by the Reck who has my brother. I am worried and this is my only clue. Help me calculate its weight if it is 1 KG plus half its own weight?",
       "a": "2"
     },
     {
-      "q": "Well done!\nThere is only one place which sells this brand in Zone-12G - THE SHINAGAWA HIGHBALL BAR.\n The Reck guarding the gate collected cigarette butts thrown by other customers. He was a low earning Reck like me and used the leftover tobacco in these discarded butts to roll his own cigarette.\nFor every 8 cigarette butts he collected, he rolled 1 full cigarette for himself. He told me that he would let me enter if I answered one simple question.\nHow many cigarettes can he make from 64 collected butts?",
+      "id": 4,
+      "q": "Well done! There is only one place which sells this brand in Zone-12G - THE SHINAGAWA HIGHBALL BAR. The Reck guarding the gate collected cigarette butts thrown by other customers. He was a low earning Reck like me and used the leftover tobacco in these discarded butts to roll his own cigarette. For every 8 cigarette butts he collected, he rolled 1 full cigarette for himself. He told me that he would let me enter if I answered one simple question. How many cigarettes can he make from 64 collected butts?",
       "a": "9"
     },
     {
-      "q": "I went straight to the bar-droid.\nThey are much reliable than other Recks when you need information.\nThe deal was simple, I had to solve this ancient glyph which the droid was struggling with in exchange for the whereabouts of my brother. I had never seen anything like this before, maybe the symbols represent numbers.\nThe key was to find the three numbers at the bottom, but in order to do so I need to work out what numbers do these symbols represent. Each row and column adds up to a number, shown as another symbol at the end of each row or column.\nHurry up now! enter the 3 digit answer -",
+      "id": 5,
+      "q": "I went straight to the bar-droid. They are much reliable than other Recks when you need information. The deal was simple, I had to solve this ancient glyph which the droid was struggling with in exchange for the whereabouts of my brother.",
+      "a": null
+    },
+    {
+      "id": 6,
+      "q": "I had never seen anything like this before, maybe the symbols represent numbers. The key was to find the three numbers at the bottom, but in order to do so I need to work out what numbers do these symbols represent. Each row and column adds up to a number, shown as another symbol at the end of each row or column. Hurry up now! enter the 3 digit answer -",
       "a": "312"
     },
     {
-      "q": "The bar-droid told me the location of the kidnapper, but I cannot go unarmed. I paid visit to an Explochemist who had arranged different explosive liquids in such a way that each shelf held a total of 9 liters, contained in three types of jars - small, medium and large.\nThe large jar contained more than thrice the quantity of the medium jar.\nThe required explosive was in the top large jar.\nCan you tell me its capacity?",
+      "id": 7,
+      "q": "The bar-droid told me the location of the kidnapper, but I cannot go unarmed so I went to meet an Explochemist.",
+      "a": null
+    },
+    {
+      "id": 8,
+      "q": "The Explochemist had arranged different explosive liquids in such a way that each shelf held a total of 9 liters, contained in three types of jars - small, medium and large. The large jar contained more than thrice the quantity of the medium jar. The required explosive was in the top large jar. Can you tell me its capacity?",
       "a": "4"
     },
     {
-      "q": "I sneaked into the mob's den. He had ransomed two captive Recks (none of which was my brother) for 210 git-coins.\nOn one Reck he made a profit of 10% over the cost he paid his henchmen to kidnap, and on the other he made a loss of 10%. Overall he made a profit of 5%.\nHow much did he pay his henchmen for the profitable Reck?",
+      "id": 9,
+      "q": "I sneaked into the mob's den. He had ransomed two captive Recks (none of which was my brother) for 210 git-coins. On one Reck he made a profit of 10% over the cost he paid his henchmen to kidnap, and on the other he made a loss of 10%. Overall he made a profit of 5%. How much did he pay his henchmen for the profitable Reck?",
       "a": "150"
     },
     {
-      "q": "Is my brother safe. I still had no clue.\nWith tears in my eyes, I saw something, there was still hope.\nI decided to breach the AI Tower - the tallest skyscraper that took seven years to build. It was the brain of this city and might have the answer. While under construction, each year the recks were able to double its height.\nCan you tell me how many years did it take for the skyscraper to reach half of its maximum height?",
+      "id": 10,
+      "q": "Is my brother safe. I still had no clue. With tears in my eyes, I saw something, there was still hope. I decided to breach the AI Tower - the tallest skyscraper that took seven years to build. It was the brain of this city and might have the answer. While under construction, each year the recks were able to double its height. Can you tell me how many years did it take for the skyscraper to reach half of its maximum height?",
       "a": "6"
     },
     {
-      "q": "I saw an unattended bike, grabbed it and rushed.\nIts odometer read 15951 - a pallindrome.\n2 hours later I reached the tower, the odometer showed another pallindrome.\nHow fast was I driving?",
+      "id": 11,
+      "q": "I saw an unattended bike, grabbed it and rushed. Its odometer read 15951 - a pallindrome. 2 hours later I reached the tower, the odometer showed another pallindrome. How fast was I driving?",
       "a": "55"
     },
     {
-      "q": "The tower was heavily guarded, but I sneaked my way into the alpha lift. Strangely, the buttons were the 12 nodes of a six pointed star.\nI figured out that each button needed a unique number of presses from 1 to 12.\nThe sum of button presses required for each of the six rows was 26.\nCan you tell me the sum of button presses required by 6 outer points of the star?",
+      "id": 12,
+      "q": "The tower was heavily guarded, but I sneaked my way into the alpha lift. A star pad to activate, that's new!",
+      "a": null
+    },
+    {
+      "id": 13,
+      "q": "Strangely, the buttons were the 12 nodes of a six pointed star. I figured out that each button needed a unique number of presses from 1 to 12. The sum of button presses required for each of the six rows was 26. Can you tell me the sum of button presses required by 6 outer points of the star?",
       "a": "24"
     },
     {
-      "q": "The elevator door opened. I could see my brother smiling, eagerly waiting for me. Without wasting any further time I ran and hugged him.\n'Congratulations for passing the Ascendance!'- someone said in a heavy voice.\nI turned and I was greeted by a mechlord.",
+      "id": null,
+      "q": "The elevator door opened. I could see my brother smiling, eagerly waiting for me. Without wasting any further time I ran and hugged him. 'Congratulations for passing our Test!'- someone said in a heavy voice. I turned and I was greeted by a mechlord. Want to know what happened next - Star this game on github!",
       "a": null
     }
   ]
