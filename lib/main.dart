@@ -200,18 +200,6 @@ final _bigTextStyle = _regularTextStyle.copyWith(fontSize: 36);
 final _lilTextStyle = _regularTextStyle.copyWith(fontSize: 14);
 final _regular = TextPaint(style: _regularTextStyle);
 final _lil = TextPaint(style: _lilTextStyle);
-/*
-final _shaded = TextPaint(
-  style: TextStyle(
-    color: BasicPalette.white.color,
-    fontSize: 40.0,
-    shadows: const [
-      Shadow(color: Colors.red, offset: Offset(2, 2), blurRadius: 2),
-      Shadow(color: Colors.yellow, offset: Offset(4, 4), blurRadius: 4),
-    ],
-  ),
-);
-*/
 
 class MyTextBox extends TextBoxComponent {
   MyTextBox(String text,
