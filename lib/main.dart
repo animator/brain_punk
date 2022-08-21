@@ -21,7 +21,7 @@ void main() async {
 class BrainPunk extends FlameGame with HasTappables, KeyboardEvents {
   late Map jsonData;
   late dynamic dataArray;
-  final double tc = 0.005;
+  final double tc = 0.05;
   late SpriteComponent background;
   NextButton nextButton = NextButton();
   late MyTextBox prompt;
