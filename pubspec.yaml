@@ -31,6 +31,7 @@ flutter:
 
   assets:
     - assets/images/story/
+    - assets/images/buttons/
     - assets/audio/music/
     - assets/data/
 
