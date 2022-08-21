@@ -6,7 +6,6 @@ import 'package:flame/flame.dart';
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flame/palette.dart';
-import 'package:flame_audio/flame_audio.dart';
 
 void main() async {
   // Create an instance of the game
@@ -27,7 +26,6 @@ class BrainPunk extends FlameGame with HasTappables, KeyboardEvents {
   late MyTextBox prompt;
   late MyTextBox instruction;
   final Vector2 buttonSize = Vector2(125.0, 45.0);
-  bool musicPlaying = false;
   int currentScene = 0;
   String input = "";
   bool hasInput = false;
@@ -38,9 +36,6 @@ class BrainPunk extends FlameGame with HasTappables, KeyboardEvents {
   Future<void> onLoad() async {
     final screenWidth = size[0];
     final screenHeight = size[1];
-
-    // initialize flame audio background music
-    FlameAudio.bgm.initialize();
 
     Sprite bg = await loadSprite('story/$currentScene.png');
     background = SpriteComponent()
@@ -79,10 +74,6 @@ class BrainPunk extends FlameGame with HasTappables, KeyboardEvents {
   @override
   Future<void> render(Canvas canvas) async {
     super.render(canvas);
-    if (!musicPlaying) {
-      FlameAudio.bgm.play('music.ogg');
-      musicPlaying = true;
-    }
     if (nextButton.storyLevel != currentScene) {
       currentScene = nextButton.storyLevel;
       hasInput = (dataArray[currentScene]["a"] != null) ? true : false;
